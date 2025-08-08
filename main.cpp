@@ -86,7 +86,7 @@ int main(int argc, char* argv[]) {
         desktop_file.close();
 
     } catch(const po::error& e) {
-        std::cerr << "Ошибка: " << e.what() << std::endl;
+        std::cerr << "Error: " << e.what() << std::endl;
         return 1;
     }
 
